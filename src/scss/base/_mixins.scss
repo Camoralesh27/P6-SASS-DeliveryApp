@@ -19,6 +19,12 @@
     }
 }
 
+@mixin bigDesktop {
+    @media (min-width: v.$bigDesktop) {
+        @content;
+    }
+}
+
 
 @mixin boton($color, $texto) {
     background-color: $color;

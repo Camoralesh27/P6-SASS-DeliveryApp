@@ -6,11 +6,15 @@
 
     &__wave {
         margin-bottom: -1px;
+
     }
 
     &__contenido {
         background-color: v.$primario;
         
+        @include m.bigDesktop {
+            margin-top: -14rem;
+        }
     }
 
     &__heading {
